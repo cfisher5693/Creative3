@@ -14,6 +14,9 @@ public class AnimalEventListener implements ActionListener{
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		Object source = e.getSource();
+		if(source == panel.getClearButton()) {
+			
+		}
 	}
 	
 }
